@@ -12,6 +12,8 @@ export const EXPRESSION_TIMEOUT = {
   HAPPY: 2500,
   SCARED: 1000,
   NODDING: 1500,
+  SHAKE: 500,
+  GROWING_SMILE: 1000,
 };
 
 export const AUTONOMOUS_INTERVAL = 4000; // 4 seconds

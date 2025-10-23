@@ -12,6 +12,8 @@ export enum EyeExpression {
   HAPPY,
   SCARED,
   NODDING,
+  SHAKE,
+  GROWING_SMILE,
 }
 
 export type PupilPosition = {
@@ -33,3 +35,8 @@ export type DeviceSensorsData = {
   isShaking: boolean;
   isMoving: boolean;
 };
+
+// Re-added for blink sound effect
+export type AudioKey = 'blink' | 'angry';
+
+export type IdleState = 'NONE' | 'THINKING' | 'CODING' | 'BORED';
